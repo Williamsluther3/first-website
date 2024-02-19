@@ -13,13 +13,12 @@ body {background-color: rgb(241, 229, 229);}
     border: 1px solid
 }
 
-p {
-    padding: 30px; 
+p { 
     background-color: blueviolet;
 }
 
 p {
-    color: rgb(127, 33, 55);
+    color: rgb(199, 30, 70);
 }
 
 /* ID - unique value given to an element*/
