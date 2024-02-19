@@ -1,0 +1,84 @@
+/* external style sheet */
+
+body {background-color: #c6c7c8;}
+
+h1 {
+    background-color: rgba(224, 224, 119, 0.983);
+}
+
+body {background-color: rgb(241, 229, 229);}
+
+
+* {
+    border: 1px solid
+}
+
+p {
+    padding: 30px; 
+    background-color: blueviolet;
+}
+
+p {
+    color: rgb(127, 33, 55);
+}
+
+/* ID - unique value given to an element*/
+#slick-img {
+   width: 49.6%;
+}
+
+#rolling {
+    width: 49.9%;
+}
+
+/* CLASS - a way to group similiar elements */
+
+.lower {
+    background-color: yellow
+}
+
+.top {
+    display: inline-table;
+}
+
+
+section {
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+}
+
+nav ul li a {
+    padding-top: 0%
+    padding-bottom:0%
+    padding-left: 5%0%;
+}
+
+nav ul li a {
+    background-color: rgb(147, 192, 163);
+}
+
+main img {
+    display: inline-flex;
+}
+
+header {
+    background-color: rgb(186, 133, 235);
+}
+
+h2 {
+    background-color: chartreuse;
+}
+
+section {
+    background-color: chocolate;
+}
+
+footer {
+    background-color: aqua;
+}
