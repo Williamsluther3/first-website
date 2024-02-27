@@ -32,8 +32,16 @@ p {
 
 /* CLASS - a way to group similiar elements */
 
-.lower {
+.lower1 {
     background-color: yellow
+}
+
+.lower2 {
+    background-color: rgba(0, 221, 255, 0.979)
+}
+
+.lower3 {
+    background-color: rgb(255, 119, 0)
 }
 
 .top {
@@ -80,4 +88,8 @@ section {
 
 footer {
     background-color: aqua;
+}
+
+p {
+    color:mauve;
 }
