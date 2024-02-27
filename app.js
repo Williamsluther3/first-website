@@ -16,7 +16,7 @@ if (usersName == "Lukie"){
 
 }
 else {
-    alert("Glad you Stopped by");
+    alert("Glad you Stopped by " + usersName);
 }
 
 const bowlingball = prompt("What type bowling ball do you use: ceramic, urathan, reactive?");
@@ -34,7 +34,7 @@ const bowlingball = prompt("What type bowling ball do you use: ceramic, urathan,
     if (bowlingball == "reactive"){
         console.log("Reactive");
 
-        document.write .lower1(" You like the curve ball knocking down the pins! ")
+        document.write(" You like the curve ball knocking down the pins! ")
     }
     else{
         console.log(" Welcome new Bowler ");
@@ -61,3 +61,4 @@ const type_of_bowler = prompt("What type of bowler are you: right hand, left, tw
         console.log("Welcome new Bowler");
     }
 
+    document.write("Thanks for coming by " + usersName + " Keep Bowling")
