@@ -40,7 +40,7 @@ const bowlingball = prompt("What type bowling ball do you use: ceramic, urathan,
         console.log(" Welcome new Bowler ");
     }
 
-    const type_of_bowler = prompt("What type of bowler are you: right hand, left, two hand?");
+const type_of_bowler = prompt("What type of bowler are you: right hand, left, two hand?");
 
     if (type_of_bowler == "right hand"){
         console.log("Right Hand");
