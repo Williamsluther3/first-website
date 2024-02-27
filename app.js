@@ -19,7 +19,7 @@ else {
     alert("Glad you Stopped by");
 }
 
-const bowlingball = prompt("What type bowling ball do you use: Ceramic, Urathan, Reactive?");
+const bowlingball = prompt("What type bowling ball do you use: ceramic, urathan, reactive?");
 
     if (bowlingball == "ceramic"){
         console.log("Ceramic");
@@ -45,17 +45,17 @@ const bowlingball = prompt("What type bowling ball do you use: Ceramic, Urathan,
     if (type_of_bowler == "right hand"){
         console.log("Right Hand");
 
-        document.write(" Right handed bowlers are Bowler after my own heart!")
+        document.write(" Right handed bowler after my own heart!")
     }
     if (type_of_bowler == "left hand"){
         console.log("Left Hand");
 
-        document.write(" Left handed bowlers You're a rare breed!")
+        document.write(" Left handed you're a rare breed!")
     }
     if (type_of_bowler == "two hand"){
         console.log("Two Hand");
 
-        document.write(" Two Handed Bowlers bowl with power!")
+        document.write(" Two Handed you bowl with power!")
     }
     else{
         console.log("Welcome new Bowler");
