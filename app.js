@@ -24,17 +24,17 @@ const bowlingball = prompt("What type bowling ball do you use: Ceramic, Urathan,
     if (bowlingball == "ceramic"){
         console.log("Ceramic");
 
-        document.write(" You're a straight bowler ")
+        document.write(" You're a straight bowler! ")
     }
     if (bowlingball == "urathan"){
         console.log("Urathan");
 
-        document.write(" You Like spreading the oil ")
+        document.write(" You Like spreading the oil! ")
     }
     if (bowlingball == "reactive"){
         console.log("Reactive");
 
-        document.write .lower1(" You like the curve ball knocking down the pins ")
+        document.write .lower1(" You like the curve ball knocking down the pins! ")
     }
     else{
         console.log(" Welcome new Bowler ");
@@ -45,17 +45,17 @@ const bowlingball = prompt("What type bowling ball do you use: Ceramic, Urathan,
     if (type_of_bowler == "right hand"){
         console.log("Right Hand");
 
-        document.write(" Right handed bowlers are Bowler after my own heart")
+        document.write(" Right handed bowlers are Bowler after my own heart!")
     }
     if (type_of_bowler == "left hand"){
         console.log("Left Hand");
 
-        document.write(" Left handed bowlers You're a rare breed")
+        document.write(" Left handed bowlers You're a rare breed!")
     }
     if (type_of_bowler == "two hand"){
         console.log("Two Hand");
 
-        document.write(" Two Handed Bowlers bowl with power")
+        document.write(" Two Handed Bowlers bowl with power!")
     }
     else{
         console.log("Welcome new Bowler");
