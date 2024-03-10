@@ -59,7 +59,7 @@ function ballType(bowlingball){
     else{
         console.log(" Welcome new Bowler ");
     }
-
+    
 }
 
 
@@ -128,6 +128,19 @@ const type_of_bowler = prompt("What type of bowler are you: right hand, left han
     else{
         console.log("Welcome new Bowler");
     }
+
+function rateMyPage(){
+   let rating = prompt("How many stars would you rate my page? 1-5");
+
+   console.log(rating);
+   
+   for (let i = 0; i < rating; i++){
+    document.write("<img class='loop-img' src='img/Strike.jpg' alt='Chi Ching' />");
+   }
+}
+
+
+
 
 function Thanks(){
     document.write(" Thanks for coming by  " + theirName + "    Keep Bowling!!");
