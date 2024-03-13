@@ -3,10 +3,18 @@
 console.log("I am in the HTML")
 alert("Welcome to my page");
 
+// let usersName = ("");
+
 function getName(){
-const usersName = prompt("What is your name");
-return usersName;
+  const usersName = prompt("what's your name");
+
+  return usersName;
+//  console.log(getName);
+ 
 }
+
+console.log("Hey + usersName + Nice to meet you");
+
 
 // usersName();
 
@@ -28,12 +36,10 @@ if (theirName == "Lukie"){
     alert("Whaaaaat it Do!");
 
 }
-if (theirName == null){
-    alert("Hello Guest");
 
-}
-else {
+else{
     alert("Glad you Stopped by " + theirName);
+
 }
 
 function bowlingShoes(){
@@ -81,10 +87,10 @@ const bowlingball = prompt("What type bowling ball do you use: ceramic, urathan,
       //  document.write(" Reactive, You like the curve ball knocking down the pins! ")
     }
     else{
-        console.log(" Welcome new Bowler ");
+        // console.log(" Welcome new Bowler ");
     }
 
-function bowlersHand(type_of_bolwer){
+function bowlersHand(type_of_bowler){
     if (type_of_bowler == "right hand"){
         console.log("Right Hand");
 
@@ -126,8 +132,25 @@ const type_of_bowler = prompt("What type of bowler are you: right hand, left han
        // document.write(" Two Handed you bowl with power!")
     }
     else{
-        console.log("Welcome new Bowler");
+        // console.log("Welcome new Bowler");
     }
+
+    
+function yourBowlType(){
+   let yourBowlType = prompt('What hand do you bowl with? Right, Left or Two hands');
+        
+   while (yourBowlType == ''){
+   yourBowlType = prompt('Come on Bro, Just pick a hand!');
+  }
+
+
+  alert('Alright ' + theirName + ' You Got it!');
+}
+
+
+    
+
+   
 
 function rateMyPage(){
    let rating = prompt("How many stars would you rate my page? 1-5");
