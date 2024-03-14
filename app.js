@@ -143,8 +143,8 @@ function yourBowlType(){
    yourBowlType = prompt('Come on Bro, Just pick a hand!');
   }
 
-
-  alert('Alright ' + theirName + ' You Got it!');
+    alert('Alright ' + theirName + ' You Got it!');
+    document.write('Alright ' + theirName + ' You Got it!');
 }
 
 
