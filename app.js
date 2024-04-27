@@ -13,8 +13,7 @@ function getName(){
  
 }
 
-console.log("Hey + usersName + Nice to meet you");
-
+//console.log("Hey + usersName + Nice to meet you");
 
 // usersName();
 
